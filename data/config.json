@@ -1,0 +1,54 @@
+{
+  "notes": {
+    "dates_format": "Use ISO yyyy-mm-dd (e.g. 2025-05-10 = 10/05/2025 UK).",
+    "edit_hint": "✏️ Required edits below are ISO dates (not dd/mm/yyyy).",
+    "required_edit_1": "fy_start_year: 2025",
+    "required_edit_2": "wk1_saturday: (yyyy-mm-dd) e.g. 2025-05-10 = 10/05/2025 UK",
+    "required_edit_3": "first_sprint_start: (yyyy-mm-dd) e.g. 2025-08-04 = 04/08/2025 UK"
+  },
+
+  "fy_start_year": 2025,
+
+  "tw_anchor_rule": "wk1_saturday",
+  "weeks": {
+    "wk1_saturday": "2025-05-10" 
+  },
+
+  "sprint": {
+    "length_weeks": 2,
+    "mode": "by_first_sprint_date",
+    "first_sprint_start": "2025-08-04"
+  },
+
+  "meta_do_not_edit_below": "🔒 Typically no changes needed below this line.",
+
+  "exceptions": [],
+
+  "quarters_periods": {
+    "q1_months": ["May", "Jun", "Jul"],
+    "q2_months": ["Aug", "Sep", "Oct"],
+    "q3_months": ["Nov", "Dec", "Jan"],
+    "q4_months": ["Feb", "Mar", "Apr"],
+    "p1_is_may": true
+  },
+
+  "display": {
+    "first_month": "May",
+    "last_month": "Apr",
+    "colour_seed_comment": "Seed to rotate sprint colours; tweak if you want a different colour sequence.",
+    "colour_seed": 7
+  },
+
+  "bank_holidays": {
+    "enable_live": true,
+    "division": "england-and-wales"
+  },
+
+  "fake_day": {
+    "enable_live": false,
+    "date": "2025-11-01",
+    "wk_label": "WK XX",
+    "holiday_label": "Fake Holiday",
+    "payday_label": "Fake Pay Day"
+  }
+}

@@ -1,0 +1,11 @@
+# Local backup snapshots
+/_backups/
+/Important.sh
+/server.sh
+
+# macOS metadata
+.DS_Store
+
+# Local artefacts / assets not tracked
+/_backups/.DS_Store
+/Financial Calendar PDFs/

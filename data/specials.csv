@@ -1,0 +1,14 @@
+date,type,label
+# Dates can be dd/mm/yyyy (UK day-first) or ISO yyyy-mm-dd.
+08/05/2025,payday,Pay Day
+05/06/2025,payday,Pay Day
+03/07/2025,payday,Pay Day
+28/08/2025,payday,Pay Day
+25/09/2025,payday,Pay Day
+23/10/2025,payday,Pay Day
+20/11/2025,payday,Pay Day
+18/12/2025,payday,Pay Day
+15/01/2026,payday,Pay Day
+12/02/2026,payday,Pay Day
+12/03/2026,payday,Pay Day
+09/04/2026,payday,Pay Day
