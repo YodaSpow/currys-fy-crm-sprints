@@ -253,6 +253,34 @@
     padding:3px 8px;
   }
 
+  /* External-link arrow */
+  a.ext::after{
+    content:"↗";
+    margin-left:-2px;
+    font-size:.9em;
+    opacity:.8;
+  }
+  /* Footnote line + typography */
+  .footnote{
+    font-size:13px;
+    margin-top:20px;
+    border-top:1px solid #1e2640;
+    padding-top:8px;
+    text-align:left;
+    color:var(--muted);
+  }
+  .footnote a.ext{
+    color:var(--muted);
+    text-decoration:none;
+  }
+  .footnote a.ext:hover{
+    color:#fff;
+  }
+  .footnote a.ext:visited,
+  .footnote a.ext:active{
+    color:var(--muted);
+  }
+
   .legend{
     display:flex;
     flex-wrap:wrap;
@@ -315,10 +343,18 @@
     </div>
   </div>
 
-  <section class="calendar">
-    <div class="months" id="months"></div>
-    <div class="legend" id="legend"></div>
-  </section>
+<section class="calendar">
+  <div class="months" id="months"></div>
+  <div class="legend" id="legend"></div>
+</section>
+
+<div class="footnote">
+  Built by
+  <a class="ext" href="https://github.com/YodaSpow/currys-fy-crm-sprints" target="_blank" rel="noopener noreferrer">
+    YodaSpow
+  </a>
+  with ChatGPT-5 Codex agent in VS Code.
+</div>
 </div>
 
 <script>

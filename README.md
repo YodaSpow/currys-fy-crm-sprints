@@ -1,4 +1,4 @@
-# Currys CRM FY Sprint Calendar
+![Currys CRM FY Sprint Calendar](assets/pageTitle.png)
 
 Live demo: https://yodaspow.github.io/currys-fy-crm-sprints/
 
