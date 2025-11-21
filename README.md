@@ -1,1 +1,0 @@
-# currys-fy-crm-sprints
